@@ -368,8 +368,10 @@ var QueryString = function () {
 							console.log("|--- JS ---| Timer line 3");
 							if ($scope.client.disableReload != wasReloaded && $scope.task.current < $scope.task.total) {
 								++$scope.task.current;
+								console.log("|--- JS ---| Timer line 3.5");
 							}
 							++$scope.pe;
+							console.log("|--- JS ---| Timer line 3.6");
 						}
 					}, 1000);
 				} else {
